@@ -1,17 +1,20 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    margin: 20px;
+    margin: 1.25rem;
     background-color: #f4f4f4;
 }
 
+
 .container {
+    width: 100%;
     max-width: 800px;
     margin: 0 auto;
     background-color: white;
-    padding: 20px;
+    padding: 1.25rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 
 header {
     text-align: center;
@@ -55,3 +58,27 @@ h3 {
 strong {
     font-weight: bold;
 }
+
+a:hover {
+    color: #0073e6;
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    body {
+        margin: 10px;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    header p {
+        font-size: 12px;
+    }
+}
+
